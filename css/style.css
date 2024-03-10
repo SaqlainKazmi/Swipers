@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgth@400;500;600&display=swap');
+
+:root{
+    --font: 'Poppins', sans-serif;
+
+    --color: #a593ee;
+    --bg-color: #f4f4f4;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: var(--bg-color);
+
+}
+
+/* Slider  */
+
+.swiper{
+    width: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 32em;
+    display: flex;
+    align-items: center;
+}
+
+
+.card{
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+    padding: 2em 1em;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 2em;
+}
+
+.card-2 {
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 2em;
+}
+
+
+.card_image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid var(--color);
+    padding: 3px;
+    margin-bottom: 2em;
+}
+
+.card_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_content {
+    display: flex;
+    align-items: center;flex-direction: column;
+}
+
+.card_title{
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+}
+
+.card_name{
+    color: var(--color);
+    font-weight: 200;
+    font-weight: 700;
+}
+
+.card_description{
+    text-align: center;
+    font-size: 1em;
+    margin: 1em 0;
+    color: rgb(182, 180, 180);
+}
+
+.card_btn{
+    background-color: var(--color);
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none !important;
+    padding: .5em;
+    border-radius:.5em;
+    margin-top: .5em;
+    cursor: pointer !important;
+
+}
+
+
+
+
+
+/* .card:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+}
+
+.card:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+
+.card:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+
+.card:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+}
+
+.card:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
+
+.card:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+.card:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+.card:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+.card:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+.card:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+} */
